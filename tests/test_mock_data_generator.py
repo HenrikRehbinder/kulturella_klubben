@@ -66,9 +66,9 @@ def test_generate_mock_prizes(tmp_path: Path) -> None:
 
 def test_generate_all_mock_data(tmp_path: Path) -> None:
     """Test complete mock data generation."""
-    MockDataGenerator.generate_all(tmp_path, participant_count=5, prize_count=3)
+    MockDataGenerator.generate_all(tmp_path, session_date="2026-05-06", participant_count=5, prize_count=3)
 
     data_dir = tmp_path / "data"
     assert (data_dir / "participants" / "participants.xlsx").exists()
-    assert (data_dir / "prizes" / "prizes.xlsx").exists()
-    assert len(list((data_dir / "prizes" / "prize_images").glob("*.png"))) == 3
+    assert (data_dir / "sessions" / "2026-05-06" / "prizes.xlsx").exists()
+    assert len(list((data_dir / "sessions" / "2026-05-06" / "prize_images").glob("*.png"))) == 3

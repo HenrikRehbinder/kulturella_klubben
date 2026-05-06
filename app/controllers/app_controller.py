@@ -40,9 +40,20 @@ class AppController:
         
         Args:
             force_new: If True, create a new session even if one exists.
+        
+        Raises:
+            ValueError: If prizes.xlsx is not found in the session folder.
         """
+        # Load prizes from session folder (must be prepared manually before lottery)
+        prizes_path = self.session_dir / "prizes.xlsx"
+        if not prizes_path.exists():
+            raise ValueError(
+                f"Prizes file not found at {prizes_path}\n"
+                "Please prepare prizes.xlsx in the session folder before starting the lottery."
+            )
+
         participants = self.participant_repo.load_from_excel(self.config.participants_excel)
-        prizes = self.prize_repo.load_from_excel(self.config.prizes_excel)
+        prizes = self.prize_repo.load_from_excel(prizes_path)
         previous_winners = self.previous_winners_repo.load_previous_winners(self.config.sessions_root)
 
         session_store = SessionStore(self.session_dir)

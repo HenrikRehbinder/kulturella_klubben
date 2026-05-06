@@ -11,11 +11,10 @@ def tmp_app_config(tmp_path: Path) -> AppConfig:
     """Create a temporary config pointing to test data directories."""
     data_dir = tmp_path / "data"
     participants_dir = data_dir / "participants"
-    prizes_dir = data_dir / "prizes"
     sessions_dir = data_dir / "sessions"
 
     participants_dir.mkdir(parents=True)
-    prizes_dir.mkdir(parents=True)
+    sessions_dir.mkdir(parents=True)
 
     # Create test participants Excel
     try:
@@ -31,14 +30,16 @@ def tmp_app_config(tmp_path: Path) -> AppConfig:
     sheet.append(["bob@example.com", "Bob", "Beta"])
     workbook.save(participants_file)
 
-    # Create test image files
-    image1 = prizes_dir / "prize1.png"
+    # Create test image files and prizes Excel in session folder
+    session_dir = sessions_dir / "2026-05-06"
+    session_dir.mkdir(parents=True)
+
+    image1 = session_dir / "prize1.png"
     image1.write_text("fake image 1")
-    image2 = prizes_dir / "prize2.png"
+    image2 = session_dir / "prize2.png"
     image2.write_text("fake image 2")
 
-    # Create test prizes Excel
-    prizes_file = prizes_dir / "prizes.xlsx"
+    prizes_file = session_dir / "prizes.xlsx"
     workbook = Workbook()
     sheet = workbook.active
     sheet.append(["prize_id", "title", "description", "image_path"])
@@ -50,7 +51,6 @@ def tmp_app_config(tmp_path: Path) -> AppConfig:
         title="Test Lottery",
         autosave=True,
         participants_excel=participants_file,
-        prizes_excel=prizes_file,
         sessions_root=sessions_dir,
         resume_same_day=True,
         snapshot_inputs=True,

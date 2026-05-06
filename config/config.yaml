@@ -4,8 +4,7 @@ app:
   random_seed: null
 
 paths:
-  participants_excel: data/data/participants/participants.xlsx
-  prizes_excel: data/data/prizes/prizes.xlsx
+  participants_excel: data/participants/participants.xlsx
   sessions_root: data/sessions
 
 session:

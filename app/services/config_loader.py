@@ -9,7 +9,6 @@ class AppConfig:
     title: str
     autosave: bool
     participants_excel: Path
-    prizes_excel: Path
     sessions_root: Path
     resume_same_day: bool
     snapshot_inputs: bool
@@ -34,7 +33,6 @@ def load_config(config_path: Path) -> AppConfig:
         title=app["title"],
         autosave=bool(app["autosave"]),
         participants_excel=(base_dir / paths["participants_excel"]).resolve(),
-        prizes_excel=(base_dir / paths["prizes_excel"]).resolve(),
         sessions_root=(base_dir / paths["sessions_root"]).resolve(),
         resume_same_day=bool(session["resume_same_day"]),
         snapshot_inputs=bool(session["snapshot_inputs"]),

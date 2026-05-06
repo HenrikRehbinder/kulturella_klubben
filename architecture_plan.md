@@ -301,16 +301,20 @@ Recommended structure:
 ```text
 data/
   participants/
-  prizes/
+    participants.xlsx
   sessions/
     2026-05-06/
+      prizes.xlsx
+      prize_images/ (optional, referenced by prizes.xlsx)
       participants_snapshot.xlsx
-      prizes_snapshot.xlsx
       winners.xlsx
       event_log.xlsx
       event_log.jsonl
       session_state.json
       assets/
+    2026-05-13/
+      prizes.xlsx
+      ...
 ```
 
 ## 8.2 Why snapshots matter
@@ -370,7 +374,9 @@ Validation rules:
 - email must not be empty
 - first and last names must not be empty
 
-## 9.2 Prize input Excel
+## 9.2 Prize input Excel (per lottery)
+
+Location: `data/sessions/YYYY-MM-DD/prizes.xlsx`
 
 Required columns:
 
@@ -379,9 +385,16 @@ Required columns:
 - `description`
 - `image_path`
 
+Notes:
+
+- This file must be prepared manually before each lottery
+- Image paths can be absolute or relative to the session folder
+- Prizes are stored per-session, not globally, so they can vary between lottery occasions
+- If using local images, store them in `data/sessions/YYYY-MM-DD/prize_images/`
+
 Validation rules:
 
-- `prize_id` must be unique
+- `prize_id` must be unique within the lottery
 - `image_path` must point to an existing image file
 
 ## 9.3 Winners output Excel
@@ -420,7 +433,6 @@ app:
 
 paths:
   participants_excel: data/participants/participants.xlsx
-  prizes_excel: data/prizes/prizes.xlsx
   sessions_root: data/sessions
 
 session:
@@ -436,13 +448,13 @@ ui:
   prize_grid_columns: 4
   image_thumbnail_width: 180
   image_thumbnail_height: 180
-
-mock_data:
-  enabled: false
-  participant_count: 100
-  prize_count: 20
-  output_dir: data/mock_assets
 ```
+
+Notes:
+
+- `participants_excel` points to the global participant file used for all lotteries
+- Prizes are no longer configured globally; they must be placed in `sessions_root/YYYY-MM-DD/prizes.xlsx`
+- The app expects `prizes.xlsx` to exist in the current session folder before starting
 
 ## 11. Module Layout
 

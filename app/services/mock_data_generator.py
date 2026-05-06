@@ -197,16 +197,32 @@ class MockDataGenerator:
         workbook.save(output_file)
 
     @classmethod
-    def generate_all(cls, output_dir: Path, participant_count: int = 100, prize_count: int = 20) -> None:
-        """Generate all mock data."""
+    def generate_all(cls, output_dir: Path, session_date: str | None = None, participant_count: int = 100, prize_count: int = 20) -> None:
+        """Generate all mock data.
+        
+        Args:
+            output_dir: Base output directory (will contain data/ folder)
+            session_date: ISO date string for the session folder (default: today)
+            participant_count: Number of mock participants
+            prize_count: Number of mock prizes
+        """
+        from datetime import date
+
+        if session_date is None:
+            session_date = date.today().isoformat()
+
         data_dir = output_dir / "data"
         participants_dir = data_dir / "participants"
-        prizes_dir = data_dir / "prizes"
+        sessions_dir = data_dir / "sessions"
+        session_dir = sessions_dir / session_date
+        prize_images_dir = session_dir / "prize_images"
 
         cls.generate_mock_participants(participants_dir / "participants.xlsx", participant_count)
-        cls.generate_mock_prize_images(prizes_dir / "prize_images", prize_count)
-        cls.generate_mock_prizes(prizes_dir / "prizes.xlsx", prizes_dir / "prize_images", prize_count)
+        cls.generate_mock_prize_images(prize_images_dir, prize_count)
+        cls.generate_mock_prizes(session_dir / "prizes.xlsx", prize_images_dir, prize_count)
 
         print(f"Generated {participant_count} mock participants in {participants_dir / 'participants.xlsx'}")
-        print(f"Generated {prize_count} mock prizes in {prizes_dir / 'prizes.xlsx'}")
-        print(f"Generated {prize_count} mock prize images in {prizes_dir / 'prize_images'}")
+        print(f"Generated {prize_count} mock prizes in {session_dir / 'prizes.xlsx'}")
+        print(f"Generated {prize_count} mock prize images in {prize_images_dir}")
+        print(f"\nPrizes are stored in the {session_date} session folder.")
+        print(f"To run the lottery, make sure the app is configured to use that session date.")
