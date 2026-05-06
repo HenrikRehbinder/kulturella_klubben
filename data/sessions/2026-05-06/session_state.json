@@ -1,0 +1,809 @@
+{
+  "session_date": "2026-05-06",
+  "participants": [
+    {
+      "email": "alice.anderson0@kulturella.se",
+      "first_name": "Alice",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "bob.anderson0@kulturella.se",
+      "first_name": "Bob",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "carol.anderson0@kulturella.se",
+      "first_name": "Carol",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "david.anderson0@kulturella.se",
+      "first_name": "David",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "eve.anderson0@kulturella.se",
+      "first_name": "Eve",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "frank.anderson0@kulturella.se",
+      "first_name": "Frank",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "grace.anderson0@kulturella.se",
+      "first_name": "Grace",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "henry.anderson0@kulturella.se",
+      "first_name": "Henry",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "iris.anderson0@kulturella.se",
+      "first_name": "Iris",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "jack.anderson0@kulturella.se",
+      "first_name": "Jack",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "karen.anderson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "leo.anderson0@kulturella.se",
+      "first_name": "Leo",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "megan.anderson0@kulturella.se",
+      "first_name": "Megan",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "noah.anderson0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "olivia.anderson0@kulturella.se",
+      "first_name": "Olivia",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "peter.anderson0@kulturella.se",
+      "first_name": "Peter",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "quinn.anderson0@kulturella.se",
+      "first_name": "Quinn",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "rachel.anderson0@kulturella.se",
+      "first_name": "Rachel",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "sam.anderson0@kulturella.se",
+      "first_name": "Sam",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "tina.anderson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "una.anderson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "victor.anderson0@kulturella.se",
+      "first_name": "Victor",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "wendy.anderson0@kulturella.se",
+      "first_name": "Wendy",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "xavier.anderson0@kulturella.se",
+      "first_name": "Xavier",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "yara.anderson0@kulturella.se",
+      "first_name": "Yara",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "zoe.anderson0@kulturella.se",
+      "first_name": "Zoe",
+      "last_name": "Anderson"
+    },
+    {
+      "email": "alice.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Alice",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "bob.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Bob",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "carol.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Carol",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "david.bergstr\u00f6m0@kulturella.se",
+      "first_name": "David",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "eve.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Eve",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "frank.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Frank",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "grace.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Grace",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "henry.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Henry",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "iris.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Iris",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "jack.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Jack",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "karen.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "leo.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Leo",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "megan.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Megan",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "noah.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "olivia.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Olivia",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "peter.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Peter",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "quinn.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Quinn",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "rachel.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Rachel",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "sam.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Sam",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "tina.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "una.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "victor.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Victor",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "wendy.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Wendy",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "xavier.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Xavier",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "yara.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Yara",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "zoe.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Zoe",
+      "last_name": "Bergstr\u00f6m"
+    },
+    {
+      "email": "alice.carlsson0@kulturella.se",
+      "first_name": "Alice",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "bob.carlsson0@kulturella.se",
+      "first_name": "Bob",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "carol.carlsson0@kulturella.se",
+      "first_name": "Carol",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "david.carlsson0@kulturella.se",
+      "first_name": "David",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "eve.carlsson0@kulturella.se",
+      "first_name": "Eve",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "frank.carlsson0@kulturella.se",
+      "first_name": "Frank",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "grace.carlsson0@kulturella.se",
+      "first_name": "Grace",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "henry.carlsson0@kulturella.se",
+      "first_name": "Henry",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "iris.carlsson0@kulturella.se",
+      "first_name": "Iris",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "jack.carlsson0@kulturella.se",
+      "first_name": "Jack",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "karen.carlsson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "leo.carlsson0@kulturella.se",
+      "first_name": "Leo",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "megan.carlsson0@kulturella.se",
+      "first_name": "Megan",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "noah.carlsson0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "olivia.carlsson0@kulturella.se",
+      "first_name": "Olivia",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "peter.carlsson0@kulturella.se",
+      "first_name": "Peter",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "quinn.carlsson0@kulturella.se",
+      "first_name": "Quinn",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "rachel.carlsson0@kulturella.se",
+      "first_name": "Rachel",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "sam.carlsson0@kulturella.se",
+      "first_name": "Sam",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "tina.carlsson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "una.carlsson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "victor.carlsson0@kulturella.se",
+      "first_name": "Victor",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "wendy.carlsson0@kulturella.se",
+      "first_name": "Wendy",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "xavier.carlsson0@kulturella.se",
+      "first_name": "Xavier",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "yara.carlsson0@kulturella.se",
+      "first_name": "Yara",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "zoe.carlsson0@kulturella.se",
+      "first_name": "Zoe",
+      "last_name": "Carlsson"
+    },
+    {
+      "email": "alice.danielsson0@kulturella.se",
+      "first_name": "Alice",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "bob.danielsson0@kulturella.se",
+      "first_name": "Bob",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "carol.danielsson0@kulturella.se",
+      "first_name": "Carol",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "david.danielsson0@kulturella.se",
+      "first_name": "David",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "eve.danielsson0@kulturella.se",
+      "first_name": "Eve",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "frank.danielsson0@kulturella.se",
+      "first_name": "Frank",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "grace.danielsson0@kulturella.se",
+      "first_name": "Grace",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "henry.danielsson0@kulturella.se",
+      "first_name": "Henry",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "iris.danielsson0@kulturella.se",
+      "first_name": "Iris",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "jack.danielsson0@kulturella.se",
+      "first_name": "Jack",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "karen.danielsson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "leo.danielsson0@kulturella.se",
+      "first_name": "Leo",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "megan.danielsson0@kulturella.se",
+      "first_name": "Megan",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "noah.danielsson0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "olivia.danielsson0@kulturella.se",
+      "first_name": "Olivia",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "peter.danielsson0@kulturella.se",
+      "first_name": "Peter",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "quinn.danielsson0@kulturella.se",
+      "first_name": "Quinn",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "rachel.danielsson0@kulturella.se",
+      "first_name": "Rachel",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "sam.danielsson0@kulturella.se",
+      "first_name": "Sam",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "tina.danielsson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "una.danielsson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Danielsson"
+    },
+    {
+      "email": "victor.danielsson0@kulturella.se",
+      "first_name": "Victor",
+      "last_name": "Danielsson"
+    }
+  ],
+  "prizes": [
+    {
+      "prize_id": "prize_01",
+      "title": "Abstract Painting",
+      "description": "A stunning piece exploring color and form",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_01.png",
+      "is_available": false
+    },
+    {
+      "prize_id": "prize_02",
+      "title": "Modern Sculpture",
+      "description": "Expertly crafted with attention to detail",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_02.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_03",
+      "title": "Digital Art Print",
+      "description": "Contemporary work from emerging artist",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_03.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_04",
+      "title": "Watercolor Landscape",
+      "description": "Limited edition artwork",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_04.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_05",
+      "title": "Bronze Figure",
+      "description": "Hand-created original composition",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_05.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_06",
+      "title": "Oil Portrait",
+      "description": "Inspired by nature and movement",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_06.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_07",
+      "title": "Mixed Media Collage",
+      "description": "Experimental approach to traditional medium",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_07.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_08",
+      "title": "Ceramic Vase",
+      "description": "Cultural fusion piece",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_08.png",
+      "is_available": false
+    },
+    {
+      "prize_id": "prize_09",
+      "title": "Glass Sculpture",
+      "description": "Thought-provoking contemporary work",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_09.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_10",
+      "title": "Wood Carving",
+      "description": "Masterfully executed technical piece",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_10.png",
+      "is_available": false
+    },
+    {
+      "prize_id": "prize_11",
+      "title": "Pastel Drawing",
+      "description": "A stunning piece exploring color and form",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_11.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_12",
+      "title": "Charcoal Sketch",
+      "description": "Expertly crafted with attention to detail",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_12.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_13",
+      "title": "Ink Installation",
+      "description": "Contemporary work from emerging artist",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_13.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_14",
+      "title": "Acrylic Canvas",
+      "description": "Limited edition artwork",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_14.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_15",
+      "title": "Textile Art",
+      "description": "Hand-created original composition",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_15.png",
+      "is_available": false
+    },
+    {
+      "prize_id": "prize_16",
+      "title": "Photographic Print",
+      "description": "Inspired by nature and movement",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_16.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_17",
+      "title": "Metal Etching",
+      "description": "Experimental approach to traditional medium",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_17.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_18",
+      "title": "Stone Relief",
+      "description": "Cultural fusion piece",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_18.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_19",
+      "title": "Fiber Art",
+      "description": "Thought-provoking contemporary work",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_19.png",
+      "is_available": true
+    },
+    {
+      "prize_id": "prize_20",
+      "title": "Installation Piece",
+      "description": "Masterfully executed technical piece",
+      "image_path": "C:\\Users\\hrehe10977\\gitlab\\kulturella_klubben\\data\\data\\prizes\\prize_images\\prize_20.png",
+      "is_available": true
+    }
+  ],
+  "previous_winner_emails": [],
+  "winners": [
+    {
+      "email": "karen.carlsson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Carlsson",
+      "chosen_prize": "Ceramic Vase",
+      "confirmed_at": "2026-05-06T16:06:09+00:00"
+    },
+    {
+      "email": "una.carlsson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Carlsson",
+      "chosen_prize": "Textile Art",
+      "confirmed_at": "2026-05-06T16:06:19+00:00"
+    },
+    {
+      "email": "tina.danielsson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Danielsson",
+      "chosen_prize": "Wood Carving",
+      "confirmed_at": "2026-05-06T16:06:33+00:00"
+    },
+    {
+      "email": "noah.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Bergstr\u00f6m",
+      "chosen_prize": "Abstract Painting",
+      "confirmed_at": "2026-05-06T16:06:43+00:00"
+    }
+  ],
+  "draw_attempts": [
+    {
+      "attempt_id": "attempt-1",
+      "timestamp": "2026-05-06T16:06:05+00:00",
+      "email": "karen.carlsson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Carlsson",
+      "result": "drawn",
+      "details": "Candidate drawn."
+    },
+    {
+      "attempt_id": "attempt-2",
+      "timestamp": "2026-05-06T16:06:09+00:00",
+      "email": "karen.carlsson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Carlsson",
+      "result": "confirmed",
+      "details": "Candidate confirmed present."
+    },
+    {
+      "attempt_id": "attempt-3",
+      "timestamp": "2026-05-06T16:06:11+00:00",
+      "email": "karen.carlsson0@kulturella.se",
+      "first_name": "Karen",
+      "last_name": "Carlsson",
+      "result": "finalized",
+      "details": "Prize assigned: Ceramic Vase"
+    },
+    {
+      "attempt_id": "attempt-4",
+      "timestamp": "2026-05-06T16:06:13+00:00",
+      "email": "una.carlsson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Carlsson",
+      "result": "drawn",
+      "details": "Candidate drawn."
+    },
+    {
+      "attempt_id": "attempt-5",
+      "timestamp": "2026-05-06T16:06:19+00:00",
+      "email": "una.carlsson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Carlsson",
+      "result": "confirmed",
+      "details": "Candidate confirmed present."
+    },
+    {
+      "attempt_id": "attempt-6",
+      "timestamp": "2026-05-06T16:06:20+00:00",
+      "email": "una.carlsson0@kulturella.se",
+      "first_name": "Una",
+      "last_name": "Carlsson",
+      "result": "finalized",
+      "details": "Prize assigned: Textile Art"
+    },
+    {
+      "attempt_id": "attempt-7",
+      "timestamp": "2026-05-06T16:06:27+00:00",
+      "email": "tina.danielsson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Danielsson",
+      "result": "drawn",
+      "details": "Candidate drawn."
+    },
+    {
+      "attempt_id": "attempt-8",
+      "timestamp": "2026-05-06T16:06:33+00:00",
+      "email": "tina.danielsson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Danielsson",
+      "result": "confirmed",
+      "details": "Candidate confirmed present."
+    },
+    {
+      "attempt_id": "attempt-9",
+      "timestamp": "2026-05-06T16:06:35+00:00",
+      "email": "tina.danielsson0@kulturella.se",
+      "first_name": "Tina",
+      "last_name": "Danielsson",
+      "result": "finalized",
+      "details": "Prize assigned: Wood Carving"
+    },
+    {
+      "attempt_id": "attempt-10",
+      "timestamp": "2026-05-06T16:06:37+00:00",
+      "email": "quinn.danielsson0@kulturella.se",
+      "first_name": "Quinn",
+      "last_name": "Danielsson",
+      "result": "drawn",
+      "details": "Candidate drawn."
+    },
+    {
+      "attempt_id": "attempt-11",
+      "timestamp": "2026-05-06T16:06:38+00:00",
+      "email": "quinn.danielsson0@kulturella.se",
+      "first_name": "Quinn",
+      "last_name": "Danielsson",
+      "result": "not_present",
+      "details": "Candidate marked not present."
+    },
+    {
+      "attempt_id": "attempt-12",
+      "timestamp": "2026-05-06T16:06:40+00:00",
+      "email": "noah.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Bergstr\u00f6m",
+      "result": "drawn",
+      "details": "Candidate drawn."
+    },
+    {
+      "attempt_id": "attempt-13",
+      "timestamp": "2026-05-06T16:06:43+00:00",
+      "email": "noah.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Bergstr\u00f6m",
+      "result": "confirmed",
+      "details": "Candidate confirmed present."
+    },
+    {
+      "attempt_id": "attempt-14",
+      "timestamp": "2026-05-06T16:06:52+00:00",
+      "email": "noah.bergstr\u00f6m0@kulturella.se",
+      "first_name": "Noah",
+      "last_name": "Bergstr\u00f6m",
+      "result": "finalized",
+      "details": "Prize assigned: Abstract Painting"
+    }
+  ],
+  "current_candidate": null,
+  "pending_winner": null,
+  "status": "ready_to_draw"
+}

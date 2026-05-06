@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kulturella-klubben"
+version = "0.1.0"
+description = "Recurring lottery application for Kulturella Klubben"
+requires-python = ">=3.12"
+dependencies = [
+    "PySide6>=6.9",
+    "PyYAML>=6.0",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+]
+
+[tool.setuptools]
+packages = ["app"]
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

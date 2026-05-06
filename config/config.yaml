@@ -1,0 +1,23 @@
+app:
+  title: Kulturella Klubben Lottery
+  autosave: true
+  random_seed: null
+
+paths:
+  participants_excel: data/data/participants/participants.xlsx
+  prizes_excel: data/data/prizes/prizes.xlsx
+  sessions_root: data/sessions
+
+session:
+  resume_same_day: true
+  snapshot_inputs: true
+  export_excel_after_each_action: true
+
+rules:
+  previous_winners_excluded_until_confirmed_winners: 3
+  max_wins_per_participant_per_session: 1
+
+ui:
+  prize_grid_columns: 4
+  image_thumbnail_width: 180
+  image_thumbnail_height: 180
